@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route, Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
+import { Navbar } from './components'
 import { Homepage, About, Contact, Services } from './pages'
 import './App.css'
 
@@ -10,7 +11,9 @@ function App() {
   return (
     <div className="App">
       <div className="">
-        Hello There
+        <div>
+          <Navbar />
+        </div>
         <div>
           <Routes>
             <Route path='/' element={<Homepage />} />
