@@ -1,0 +1,53 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*===============*/
+/* GENERAL RULES */
+/*===============*/
+:root {
+  --yellowish:            #ffce00;
+  --dark:                 #242424;
+  --dark1 :               #0d1117;
+  --dark2 :               #10141a;
+  --red:                  #f83038;
+  --orange:               #ff6740;
+  --blue:				          #64acff;
+  --magicColors:          linear-gradient(90deg, #0175ff, #8042e2 69%, #0565d8);
+  --magicColorsInverted:  linear-gradient(90deg, #8042e2, #0175ff 69%, #8042e2);
+  --purpleGradient:       linear-gradient(-70deg, #9867f0, #ed4e50);
+  --blueGradient:       	linear-gradient(-70deg, #a2facf, #64acff);
+  --redGradient:		    	linear-gradient(#f00, #f0f);
+  --hmm: 					        linear-gradient(to bottom right, #121826, var(--dark));
+}
+
+html {
+  background-color: var(--dark);
+  color: #fff;
+  /* font-family: 'Lato', 'Arial', sans-serif; */
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+body{ overflow-x: hidden; }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
