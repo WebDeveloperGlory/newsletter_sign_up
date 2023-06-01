@@ -1,11 +1,5 @@
-import Homepage from "./Homepage";
-import About from "./About";
-import Contact from "./Contact"
-import Services from "./Services"
+import NewsLetter from "./NewsLetter";
 
 export {
-    Homepage,
-    About,
-    Contact,
-    Services
+    NewsLetter,
 }
