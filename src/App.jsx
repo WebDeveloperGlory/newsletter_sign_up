@@ -1,9 +1,10 @@
 import React from 'react'
+import { NewsLetter } from './pages'
 
 const App = () => {
   return (
     <div>
-      App
+      <NewsLetter />
     </div>
   )
 }
