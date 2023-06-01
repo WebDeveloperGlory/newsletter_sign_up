@@ -64,6 +64,13 @@ module.exports = {
         'th-red': 'var(--red)',
         'th-yellow': 'var(--yellowish)',
         'cu-blue': '#64acff',
+
+        /* NewLetter Colors */
+        'cu-tomato': 'hsl(4, 100%, 67%)',
+        'cu-ds-grey': 'hsl(234, 29%, 20%)',
+        'cu-c-grey': 'hsl(235, 18%, 26%)',
+        'cu-grey': 'hsl(231, 7%, 60%)',
+        'cu-white': 'hsl(0, 0%, 100%)',
       },
     },
   },

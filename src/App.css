@@ -2,9 +2,16 @@
     font-family: 'Roboto_Bold';
     src: local("Roboto-Bold"),
       url("./fonts/Roboto-Bold.ttf") format("truetype");
-  }
-  @font-face {
+}
+@font-face {
     font-family: 'Roboto_Regular';
     src: local("Roboto-Regular"),
       url("./fonts/Roboto-Regular.ttf") format("truetype");
-  }  
+}
+
+.font-roboto-reg {
+    font-family: "Roboto_Regular";
+}
+.font-roboto-bold {
+    font-family: "Roboto-Bold";
+}
