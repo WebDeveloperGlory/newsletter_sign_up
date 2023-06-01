@@ -11,7 +11,9 @@
 
 .font-roboto-reg {
     font-family: "Roboto_Regular";
+    font-weight: 400;
 }
 .font-roboto-bold {
     font-family: "Roboto-Bold";
+    font-weight: 700;
 }
