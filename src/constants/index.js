@@ -7,10 +7,14 @@ export const signUpText = {
         "And much more!"
     ],
     form: "Email address",
+    error: "Valid Email Required",
     button: "Subscribe to monthly newsletter"
 }
 export const successText = {
     title: "Thanks for subscribing!",
-    subTitle: "A confirmation email has been sent to ash@loremcompany.com. Please open it and click the button inside to confirm your subscription.",
+    subTitle: {
+        start: "A confirmation email has been sent to ",
+        end: ". Please open it and click the button inside to confirm your subscription."
+    },
     button: "Dismiss message"
 }
